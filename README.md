@@ -1,6 +1,4 @@
 # File Compressing
-Scroll down for the Portuguese translation of this file
-
 Proposed file compressing script developed as a final assignment for the Information Theory course at the University of Brasilia
 
 ## Installation
@@ -10,12 +8,8 @@ Proposed file compressing script developed as a final assignment for the Informa
 
 ## Usage
 
---------------------------------------------
-Proposta de script para compressão de arquivos desenvolvido como trablho final da disciplina de Teoria da Informaço na Universidade de Brasília
+This script can be used for compressing or decompressing files using Huffman Code. It has three possible modes:
 
-## Instalação
-
-1. Consiga uma pasta contendo o script `filecompressing.py` + um arquivo readme ou clone este repositório do GitHub usando a seguinte linha no seu prompt de commando: `git clone https://github.com/sofiadsg/file-compressing`
-2. Esse script não precisa de build, mas é escrito em Python (funciona com Python 2 e Python 3). Se você deseja usar esse script e não possui Python no seu computador, você pode descobrir como instalá-lo no [website do Python](https://www.python.org/downloads/)
-
-## Uso
+1. Compressing: uses Huffman code to compress a file. Use it with ```python3 filecompressing.py -c [yourfile]```
+2. Decompressing: decompresses a .dsg file. Use it with ```python3 filecompressing.py -d [yourfile].dsg```
+3. Help: Call ```python3 filecompressing.py -h``` to get information on the script usage
